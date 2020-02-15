@@ -1,6 +1,8 @@
 import React from "react";
-import Images from "./components/Images";
+import Fighters from "./components/Fighters";
 import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
+import Score from "./components/Score";
 
 class App extends React.Component {
   state = {
@@ -77,7 +79,7 @@ class App extends React.Component {
     ]
   };
 
-  charClicked = id => {
+  onClick = id => {
     this.setState({
       fighters: this.state.fighters.map(fighter => {
         if (fighter.id === id) {
@@ -119,22 +121,13 @@ class App extends React.Component {
     }
   };
 
-  correctGuess = guess => {
-    const score = { ...this.state.score };
-    const topScore = { ...this.state.topScore };
-
-    this.setState({
-      score: score++,
-      topScore: topScore++
-    });
-    //shufflefighters();
-  };
-
   render() {
     return (
       <React.Fragment>
-        <Navbar score={this.state.score} topScore={this.state.topScore} />
-        <Images fighters={this.state.fighters} onClick={this.charClicked} />
+        <Navbar topScore={this.state.topScore} />
+        <Jumbotron />
+        <Score score={this.state.score} topScore={this.state.topScore} />
+        <Fighters fighters={this.state.fighters} onClick={this.onClick} />
       </React.Fragment>
     );
   }

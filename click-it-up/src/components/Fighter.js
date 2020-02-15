@@ -1,18 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-class Picture extends React.Component {
+class Fighter extends React.Component {
   render() {
     const { id, image, name } = this.props.fighter;
     return (
       <span>
         <img
-          className=""
+          className="fighter"
           src={image}
           id={id}
           alt={name}
           style={charCard}
-          //onClick={this.charClicked.bind(this, id)}
+          onClick={this.props.onClick.bind(this, id)}
         />
       </span>
     );
@@ -26,9 +26,9 @@ const charCard = {
   border: "solid"
 };
 
-Picture.propTypes = {
+Fighter.propTypes = {
   fighter: PropTypes.object.isRequired,
   onClick: PropTypes.func.isRequired
 };
 
-export default Picture;
+export default Fighter;
