@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Maserallm/Click-It-UP/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Maserallm/Click-It-UP/static/js/main.303c16a3.chunk.js",
-    "main.js.map": "/Maserallm/Click-It-UP/static/js/main.303c16a3.chunk.js.map",
-    "runtime-main.js": "/Maserallm/Click-It-UP/static/js/runtime-main.6fcb958c.js",
-    "runtime-main.js.map": "/Maserallm/Click-It-UP/static/js/runtime-main.6fcb958c.js.map",
-    "static/js/2.def6e5b6.chunk.js": "/Maserallm/Click-It-UP/static/js/2.def6e5b6.chunk.js",
-    "static/js/2.def6e5b6.chunk.js.map": "/Maserallm/Click-It-UP/static/js/2.def6e5b6.chunk.js.map",
-    "index.html": "/Maserallm/Click-It-UP/index.html",
-    "precache-manifest.d5f086dcc3a458e523835b2d78195ae9.js": "/Maserallm/Click-It-UP/precache-manifest.d5f086dcc3a458e523835b2d78195ae9.js",
-    "service-worker.js": "/Maserallm/Click-It-UP/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/Maserallm/Click-It-UP/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.def6e5b6.chunk.js.LICENSE.txt": "/Maserallm/Click-It-UP/static/js/2.def6e5b6.chunk.js.LICENSE.txt"
+    "main.css": "/Click-It-UP/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Click-It-UP/static/js/main.8108d31b.chunk.js",
+    "main.js.map": "/Click-It-UP/static/js/main.8108d31b.chunk.js.map",
+    "runtime-main.js": "/Click-It-UP/static/js/runtime-main.832481ec.js",
+    "runtime-main.js.map": "/Click-It-UP/static/js/runtime-main.832481ec.js.map",
+    "static/js/2.def6e5b6.chunk.js": "/Click-It-UP/static/js/2.def6e5b6.chunk.js",
+    "static/js/2.def6e5b6.chunk.js.map": "/Click-It-UP/static/js/2.def6e5b6.chunk.js.map",
+    "index.html": "/Click-It-UP/index.html",
+    "precache-manifest.60b2a147ae938e09e5e3bc91bec92ee2.js": "/Click-It-UP/precache-manifest.60b2a147ae938e09e5e3bc91bec92ee2.js",
+    "service-worker.js": "/Click-It-UP/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Click-It-UP/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.def6e5b6.chunk.js.LICENSE.txt": "/Click-It-UP/static/js/2.def6e5b6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6fcb958c.js",
+    "static/js/runtime-main.832481ec.js",
     "static/js/2.def6e5b6.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.303c16a3.chunk.js"
+    "static/js/main.8108d31b.chunk.js"
   ]
 }
