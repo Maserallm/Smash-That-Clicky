@@ -121,6 +121,14 @@ class App extends React.Component {
     }
   };
 
+  resetGame = clicked => {
+    if (clicked) {
+      this.setState({ clicked: false });
+      alert("You won!");
+      this.resetScore();
+    }
+  };
+
   render() {
     return (
       <React.Fragment>

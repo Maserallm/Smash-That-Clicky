@@ -1,6 +1,7 @@
 import React from "react";
 import Fighter from "./Fighter";
 import PropTypes from "prop-types";
+import "./fighter.css";
 
 const shuffleChar = char => {
   let i = char.length - 1;
@@ -16,14 +17,18 @@ const shuffleChar = char => {
 class Fighters extends React.Component {
   render() {
     const shuffleFighters = shuffleChar(this.props.fighters);
-    return shuffleFighters.map(fighter => (
-      <Fighter
-        key={fighter.id}
-        fighter={fighter}
-        alt={fighter.name}
-        onClick={this.props.onClick}
-      />
-    ));
+    return (
+      <div className="fighter-box">
+        {shuffleFighters.map(fighter => (
+          <Fighter
+            key={fighter.id}
+            fighter={fighter}
+            alt={fighter.name}
+            onClick={this.props.onClick}
+          />
+        ))}
+      </div>
+    );
   }
 }
 
