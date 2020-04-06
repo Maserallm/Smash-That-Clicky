@@ -1,4 +1,4 @@
-# Smash That Clicky!
+# Smash That Clicky
 
 <a href="https://maserallm.github.io/Smash-That-Clicky/.">
 <img src="./click-it-up/public/images/smashbrosheader.jpg" alt="Super Smash Bros Logo" width="100%" />
@@ -7,6 +7,8 @@
 ## Concept
 
 Here's a fun game themed after the famed Nintendo Super Smash Brothers video game! Try not to click on the same fighter twice or else you'll be defeated.
+
+Access the live webapp: [Smash That Clicky](https://maserallm.github.io/Smash-That-Clicky/)
 
 ## Contents
 
