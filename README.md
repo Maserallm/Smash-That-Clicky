@@ -1,7 +1,7 @@
 # Smash That Clicky!
 
 <a href="https://maserallm.github.io/Smash-That-Clicky/.">
-<img src="./click-it-up/public/images/pngkey.com-smash-bros-logo-png-2256701.png" alt="Super Smash Bros Logo" width="10%" />
+<img src="./click-it-up/public/images/pngkey.com-smash-bros-logo-png-2256701.png" alt="Super Smash Bros Logo" style="background: black;" width="30%" />
 </a>
 
 # Concept
@@ -20,6 +20,11 @@ With React.js different images of fighters are rendered to the DOM. Each fighter
 - HTML
 - JavaScript
 
-### Contributors
+---
 
-I am the sole contributer to this project.
+### <a href="aboutthedeveloper">About the Developer</a>
+
+Smash That Clicky creator/designer:
+
+[<img src="https://avatars0.githubusercontent.com/u/53875404?s=460&u=31a5f360d71e4f0a1fa4dfd8db38ed44f27fa10b&v=4" height="70px" width="70px">](https://github.com/maserallm)<br>
+[Maserall Marcelin](https://github.com/maserallm) is an Inventory Analyst at Publix Supermarkets, Inc. turned software developer. He can be found on [LinkedIn](https://www.linkedin.com/in/maserall-marcelin-76067a12b/) and [Github](https://github.com/maserallm).
