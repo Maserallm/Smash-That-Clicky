@@ -13,8 +13,7 @@ Here's a fun game themed after the famed Nintendo Super Smash Brothers video gam
 - [Overview](#overview)
 - [Technologies](#technologies)
 - [Installation](#installation)
-- [Features](#features)
-- [About the Developer](#aboutthedeveloper)
+- [Developer](#developer)
 
 ---
 
@@ -27,15 +26,73 @@ With React.js different images of fighters are rendered to the DOM. Each fighter
 | Frontend     |
 | ------------ |
 | React        |
+| React DOM    |
 | Javascript 6 |
 | HTML5        |
 | CSS3         |
 | Node         |
-|              |
 
 ---
 
-### <a name="aboutthedeveloper">About the Developer</a>
+### Installation
+
+#### Prerequisites
+
+You must have the following installed to run Want A Burger:
+
+- [Node](https://nodejs.org/en/)
+- [MySQL Workbench](https://dev.mysql.com/doc/)
+
+#### Run on your local computer
+
+Clone or fork repository:
+
+    $ git clone git@github.com:Maserallm/burgers.git
+
+CD into burgers folder
+
+```
+$ cd burgers
+```
+
+Install dependencies:
+
+```
+$ npm install
+```
+
+Initialize database:
+
+```
+DROP DATABASE IF EXISTS burger_db;
+
+CREATE DATABASE burger_db;
+
+USE burger_db;
+
+CREATE TABLE burgers
+(
+    id INT
+    AUTO_INCREMENT NOT NULL,
+    burger_name VARCHAR
+    (40) NOT NULL,
+    devoured BOOLEAN,
+    PRIMARY KEY
+    (id)
+);
+```
+
+Run the app with node or nodemon from the command line
+
+```
+$ nodemon server
+```
+
+Open folder in code editor and inspect files.
+
+---
+
+### Developer
 
 Smash That Clicky creator/designer:
 
