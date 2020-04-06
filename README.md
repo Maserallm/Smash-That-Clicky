@@ -41,13 +41,13 @@ With React.js different images of fighters are rendered to the DOM. Each fighter
 You must have the following installed to run Want A Burger:
 
 - [Node](https://nodejs.org/en/)
-- [MySQL Workbench](https://dev.mysql.com/doc/)
+- [React](https://reactjs.org/)
 
 #### Run on your local computer
 
 Clone or fork repository:
 
-    $ git clone git@github.com:Maserallm/burgers.git
+    $ git clone git@github.com:Maserallm/Smash-That-Clicky.git
 
 CD into burgers folder
 
