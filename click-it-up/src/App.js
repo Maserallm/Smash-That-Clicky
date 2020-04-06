@@ -135,7 +135,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Navbar topScore={this.state.topScore} />
-        <Jumbotron />
+
         <Score score={this.state.score} topScore={this.state.topScore} />
         <Fighters fighters={this.state.fighters} onClick={this.onClick} />
       </React.Fragment>
