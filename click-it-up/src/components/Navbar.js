@@ -11,17 +11,27 @@ class Navbar extends React.Component {
         // }}
         className="top"
       >
-        <img src="./images/smashbros.png" />
+        <img className="header" src="./images/smashbros.png" />
+
         <a className="title" href="/">
-          <h1 style={headerStyle}>Smash That Clicky</h1>
+          <img
+            src="https://fontmeme.com/permalink/200406/54cf4cc89e0161263aa403e241583cf5.png"
+            alt="super-smash-bros-font"
+            border="0"
+          />
         </a>
 
-        <a href="https://www.smashbros.com/en_US/index.html">
+        {/* <a href="/"> */}
+        {/* <img src="https://fontmeme.com/images/super-smash-bros-latest-logo-min.png" /> */}
+        {/* <h1 style={headerStyle}>Smash That Clicky</h1> */}
+        {/* </a> */}
+
+        <a className="logo" href="https://www.smashbros.com/en_US/index.html">
           <img
             src="./images/pngkey.com-smash-bros-logo-png-2256701.png"
             alt="Super Smash Bros Logo"
             width="10%"
-            style={{ cursor: "pointer", float: "right" }}
+            style={{ cursor: "pointer" }}
           />
         </a>
       </section>
@@ -30,7 +40,7 @@ class Navbar extends React.Component {
 }
 
 const headerStyle = {
-  color: "#fff",
+  color: "black",
   textAlign: "center",
   padding: "10px",
   textDecoration: "underline",
