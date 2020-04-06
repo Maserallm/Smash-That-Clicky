@@ -61,10 +61,10 @@ Install dependencies:
 $ npm install
 ```
 
-Run the app with node or nodemon from the command line
+Run the app with npm start from the command line
 
 ```
-$ nodemon server
+$ npm start
 ```
 
 Open folder in code editor and inspect files.
