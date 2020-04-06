@@ -118,6 +118,8 @@ class App extends React.Component {
   checkScore = (score, topScore) => {
     if (score > topScore) {
       this.setState({ topScore: score });
+    } else if (score === 12) {
+      alert("VICTORY!");
     }
   };
 
