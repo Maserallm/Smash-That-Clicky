@@ -38,7 +38,7 @@ With React.js different images of fighters are rendered to the DOM. Each fighter
 
 #### Prerequisites
 
-You must have the following installed to run Want A Burger:
+You must have the following installed to run Smash That Clicky:
 
 - [Node](https://nodejs.org/en/)
 - [React](https://reactjs.org/)
@@ -49,37 +49,16 @@ Clone or fork repository:
 
     $ git clone git@github.com:Maserallm/Smash-That-Clicky.git
 
-CD into burgers folder
+CD into Smash-That-Clicky/click-it-up folder
 
 ```
-$ cd burgers
+$ cd Smash-That-Clicky/click-it-up
 ```
 
 Install dependencies:
 
 ```
 $ npm install
-```
-
-Initialize database:
-
-```
-DROP DATABASE IF EXISTS burger_db;
-
-CREATE DATABASE burger_db;
-
-USE burger_db;
-
-CREATE TABLE burgers
-(
-    id INT
-    AUTO_INCREMENT NOT NULL,
-    burger_name VARCHAR
-    (40) NOT NULL,
-    devoured BOOLEAN,
-    PRIMARY KEY
-    (id)
-);
 ```
 
 Run the app with node or nodemon from the command line
