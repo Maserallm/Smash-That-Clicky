@@ -1,4 +1,26 @@
 .fighter-box {
-  margin-left: 8rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  /* margin-left: 8rem; */
   margin-bottom: 5rem;
+  justify-items: center;
+}
+
+.fighter {
+  border: 1px black solid;
+  padding: 5px;
+  cursor: pointer;
+  width: 400px;
+}
+
+.zoom {
+  transition: transform 0.2s;
+  border: solid;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.2);
+  border: none;
 }

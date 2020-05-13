@@ -7,11 +7,11 @@ class Fighter extends React.Component {
     return (
       <span>
         <img
-          className="fighter"
+          className="fighter zoom"
           src={image}
           id={id}
           alt={name}
-          style={charCard}
+          // style={charCard}
           onClick={this.props.onClick.bind(this, id)}
         />
       </span>
@@ -19,12 +19,11 @@ class Fighter extends React.Component {
   }
 }
 
-const charCard = {
-  padding: "5px",
-  cursor: "pointer",
-  width: "400px",
-  border: "solid"
-};
+// const charCard = {
+//   padding: "5px",
+//   cursor: "pointer",
+//   width: "400px"
+// };
 
 Fighter.propTypes = {
   fighter: PropTypes.object.isRequired,

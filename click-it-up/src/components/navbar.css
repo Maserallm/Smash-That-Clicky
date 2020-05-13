@@ -18,6 +18,11 @@
   color: black;
 }
 
+.title img {
+  width: 100%;
+  margin: 1rem 0;
+}
+
 .logo {
   display: grid;
   grid-column: 2 / 3;

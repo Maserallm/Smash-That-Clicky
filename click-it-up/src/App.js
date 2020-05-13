@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import Fighters from "./components/Fighters";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
@@ -134,10 +135,12 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar topScore={this.state.topScore} />
+        <Router>
+          <Navbar topScore={this.state.topScore} />
 
-        <Score score={this.state.score} topScore={this.state.topScore} />
-        <Fighters fighters={this.state.fighters} onClick={this.onClick} />
+          <Score score={this.state.score} topScore={this.state.topScore} />
+          <Fighters fighters={this.state.fighters} onClick={this.onClick} />
+        </Router>
       </React.Fragment>
     );
   }
